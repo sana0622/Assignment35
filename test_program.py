@@ -1,6 +1,12 @@
 
 
-def display():
-    print(" This is my first program")
+def display(msg):
+    print(msg)
 
-display()
+
+def add_num(a,b):
+    sum = a+b
+    display(sum)
+    
+    
+display(" This is my first program")
